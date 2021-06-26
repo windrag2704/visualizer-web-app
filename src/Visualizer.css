@@ -1,0 +1,126 @@
+.App {
+}
+.Comp {
+  height: 100%;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+}
+.Content {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  grid-row: 2;
+  grid-column: 1;
+    overflow: visible;
+}
+
+
+.react-flow__node-thread,
+.react-flow__node-func{
+  padding: 10px;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 12px;
+  color: #222;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.react-flow__node-thread {
+  border-color: #0041d0;
+}
+
+.react-flow__node-func {
+  border-color: #d04100;
+}
+
+.stacks {
+  overflow: scroll;
+  height: 100%;
+  white-space: nowrap;
+}
+.stack {
+  margin: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.stackLine {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.stackTitle {
+  background-color: lightgreen;
+}
+
+.speedImg {
+    background-image: url("img/speed.png");
+    height: 100%;
+    margin-top: 2px;
+    width: 20px;
+    background-clip: border-box;
+    filter: invert(1);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.firstBtn,
+.closeBtn,
+.stepBackBtn,
+.stepForwardBtn,
+.playBtn {
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 10px;
+    margin: 0 2px;
+}
+.firstImg,
+.closeImg,
+.stepBackImg,
+.stepForwardImg,
+.playImg,
+.pauseImg {
+    height: 100%;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.closeImg {
+    background-image: url("img/close.png");
+}
+
+.firstImg {
+    background-image: url("img/first.png");
+    filter: invert(1);
+}
+
+.stepBackImg {
+    background-image: url("img/back.png");
+    filter: invert(1);
+}
+
+.stepForwardImg {
+    background-image: url("img/forward.png");
+    filter: invert(1);
+}
+
+.playImg {
+    background-image: url("img/play.png");
+    filter: invert(1);
+}
+
+.pauseImg {
+    background-image: url("img/pause.png");
+    filter: invert(1);
+}
